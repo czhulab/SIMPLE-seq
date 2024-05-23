@@ -4,6 +4,9 @@ Processing of SIMPLE-seq datasets.
 
 SIMPLE-seq is a scalable method for joint analysis of 5mC and 5hmC from single cells. This repository provide the scripts for decoding the cellular barcodes of SIMPLE-seq datasets (modified from ligation-based combinatorial barcoding from SPLiT-seq), and for the identification of 5mC and 5hmC sites for individual cells.
 
+- [Simultaneous single-cell analysis of 5mC and 5hmC with SIMPLE-seq](https://www.nature.com/articles/s41587-024-02148-9), Nature Biotechnology, 2024
+- [SIMPLE-seq to decode DNA methylation dynamics in single cells](https://www.nature.com/articles/s41576-024-00729-7), Nature Reviews Genetics, 2024
+
 #### Please have the following softwares installed first:
 
 - bowtie, http://bowtie-bio.sourceforge.net/index.shtml
