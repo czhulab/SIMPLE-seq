@@ -5,7 +5,7 @@ s=$1 # with ${s}_R1.fq.gz and ${s}_R2.fq.gz in the working directory
 ## Step 1
 ## (a) for PBMC and mESC with 19-bp barcode
 p="path-to-cell-id-reference"  # reference file is in "Cell_BC_reference/" of github directory, "cell_id" for mESC and PBMC,
-simpleconv combine ${s} 
+./simpleconv combine ${s} 
 
 ## (b) for brain with 21-bp barcode
 ## p="path-to-cell-id-reference"  # reference file is in "Cell_BC_reference/" of github directory,  "SIMPLE_Brain_ID" for brain.
