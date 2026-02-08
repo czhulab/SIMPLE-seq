@@ -17,5 +17,5 @@ zcat ${s}_combined.fq.gz | bowtie ${p} - --norc -m 1 -v 1 -S ${s}_BC.sam ## for 
 
 #### This step convert to Celluar Barcode mapped reads to fastq files.
 #### may need to mofify this script according to read length format (GEO/Illumina/BGI)
-perl perlscripts/01.sam2fastq.pl ${s}
+perl ./SIMPLE-seq/perlscripts/01.sam2fastq.pl ${s}
 
